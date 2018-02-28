@@ -1,0 +1,256 @@
+html {
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #aaa;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans',Arial, sans-serif;
+	font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+}
+h1 {font-size: 32px;}
+h2 {font-size: 26px;}
+h3 {font-size: 24px;}
+h4 {font-size: 22px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+/*rešenje problema vezano za rezervisano mesto za disendere i asendere,pošto se slika ponaša kao tekst*/
+img {
+	vertical-align: bottom;
+}
+#big_wrapper {
+    margin: 0 auto;
+    width: 980px;
+    background: #fff;
+}
+#header {
+    background-color: orange;
+    overflow: hidden;
+    color: #000;
+}
+#logo {
+    float: left;
+}
+#slogan {
+    float: right;
+    padding: 10px;
+    font-size: 24px;
+    font-style: italic;
+}
+#nav {
+    height: 40px;
+    background: #000;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#nav ul li {
+    float: left;
+}
+#nav ul li a {
+    display: block;
+    padding: 10px;
+    height: 20px;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+#nav ul li a:hover {
+    background-color: orange;
+    color: #000;
+}
+#nav ul li a:active {
+    background-color: orangered;
+    color: #000;
+}
+#pretraga {
+    float: left;
+    padding: 4px;
+}
+#baner {
+    border-bottom: 4px solid orange;
+}
+#contain {
+    overflow: hidden;
+}
+#leftbox {
+    float: left;
+    width: 220px;
+    padding: 10px;
+}
+#leftbox ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#leftbox ul li a {
+    display: block;
+    height: 20px;
+    width: 200px;
+    border-bottom: 4px solid orange;
+    padding: 10px;
+    text-align: center;
+}
+#leftbox ul li a:link,
+#leftbox ul li a:visited {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+}
+#leftbox ul li a:hover {
+    background-color: orange;
+    color: #000;
+}
+#leftbox ul li a:active {
+    background-color: orangered;
+    color: #000;
+}
+#rightbox {
+    float: left;
+    width: 740px;
+    /*padding: 10px;*/
+    /*background-color: aquamarine;*/
+}
+.image-info {
+	float: left;
+}
+.models {
+	position: relative;
+    float: left;
+    width: 365px;
+    margin: 0 10px 10px 0;
+	/*background-color: yellow;*/
+}
+.models h2 {
+    background-color: orange;
+    padding: 5px;
+}
+.image-info {
+    height: 212px;
+}  
+.models:nth-of-type(2n) {
+    margin-right: 0;
+}
+.specmobile {
+	float:left;
+	width:205px;
+}
+.specmobile table td {
+	text-align: right;
+	letter-spacing: 0.1em;
+}
+.specmobile table {
+	margin-left: 50px;
+}
+.cena-mob {
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+}
+.cena-mob p {
+	margin: 0;
+	padding: 5px;
+	background-color: orange;
+	color: #000;
+}
+/*registracija*/
+.registracija {
+    width: 350px;
+    background-color: orange;
+    border-radius: 4px;
+    padding: 5px;
+}   
+/*ubacivanje proizvoda*/
+#proizvodi {
+        background-color: orange;
+        padding: 5px;
+        border-radius: 4px;
+    }    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    clear: both;
+    text-align: center;
+    background-color: #000;
+    padding: 5px;
+    color: orange;
+    border-top: 4px solid orange;
+}
+#footer p {
+    margin: 0;
+}
+/* korpa */
+.korpa{
+    padding: 50px;
+    width: 880px;
+}
+.korpa table{
+    border-collapse: collapse;
+    width: 880px;
+}
+.korpa th{
+    background-color: lightgray;
+}
+.korpa td{
+    padding: 5px;
+    text-align: center;
+}
+#buy{
+    display: inline-block;
+    text-decoration: none;
+    background-color: green;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#delete{
+    display: inline-block;
+    text-decoration: none;
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#shoping{
+    display: inline-block;
+    text-decoration: none;
+    background-color: orange;
+    border: none;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

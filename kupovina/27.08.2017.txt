@@ -1,0 +1,6 @@
+27.08.2017 10:43:48 :
+ID proizvoda : 1
+Kupac: mirko
+Količina: 1
+Model: Samsung J3
+________________________________
